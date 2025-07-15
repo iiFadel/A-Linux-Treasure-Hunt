@@ -37,8 +37,7 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 #### Your Mission:
 - Go to the directory `FROM CHALLANGE 1`
 - Look for **hidden files and directories** (hint: some start with `.)
-- Find **Dr. Vasquez's journal**
-- Discover the **hidden room** and retrieve the **ancient key**
+- Discover the **hidden room** and read the **ancient key**
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`
 
