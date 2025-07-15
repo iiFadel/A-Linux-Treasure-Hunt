@@ -6,22 +6,32 @@ Welcome to the **Lost Digital Expedition** — an interactive Linux treasure hun
 
 ## 🏛️ Storyline
 
-Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files when she suddenly disappeared. Before she vanished, she sent one last message saying she found “the greatest treasure of the digital age” hidden deep in the university’s research servers. She left behind clues for anyone clever and brave enough to follow her steps.
+Dr. Elena Vasquez was working on secret research when she suddenly disappeared. Her last message said she found “the greatest treasure of the digital age.” She left clues hidden in the university server. Your job is to follow the trail and find the treasure!
 
 ---
 
+🎮 How It Works
+
+Each Challenge will ask you to:
+	•	Go to a folder
+	•	Look at files
+	•	Read messages
+	•	Use simple Linux commands
+
+Use the Command Help at the bottom if you get stuck!
+
 ## 🎮 Your Quest Begins Here!
 
-### 🗺️ Challenge 1: Base Camp Navigation
+### 🗺️ Challenge 1: Base Camp
 
 **📝 Dr. Vasquez's Note:**  
-"Welcome, brave explorer! I've left supplies at base camp. You'll need to find the compass to continue your journey."
+“Welcome, explorer! Go to the base camp and look in the supplies. You’ll need the compass to begin.”
 
 #### Your Mission:
-- Go to: `~/digital_expedition/base_camp`
-- List what's available in the camp
+- Go to this folder: `~/digital_expedition/base_camp`
+- List the files in the camp
 - Read the `README.txt` file for instructions
-- Find the **compass** in the `supplies` directory
+- Find the **compass.txt** in the `supplies` folder
 
 **Helpful Commands:** `cd`, `ls`, `cat`
 
@@ -32,12 +42,12 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 ### 🗺️ Challenge 2: The Hidden Room
 
 **🧭 Compass Reading:**  
-"The ancient directory holds secrets."
+“The next clue is in an old folder. Some things are hidden.”
 
 #### Your Mission:
-- Go to the directory `FROM CHALLANGE 1`
-- Look for **hidden files and directories** (hint: some start with `.)
-- Discover the **hidden room** and read the **ancient key**
+- Go to the folder the compass showed you: `FROM CHALLANGE 1`
+- Look for **hidden folders** (hint: it start with `.)
+- Go inside the hidden folder and read the ancient_key.txt
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`
 
@@ -47,14 +57,11 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 
 ### 🗺️ Challenge 3: The Riddle
 
-**🔑 Ancient Key Message:**  
-"The guardian's name is '******'. Find the riddle in the '******' directory."
-
 #### Your Mission:
-- Go to directory `FROM CHALLANGE 2`
+- Go to the folder you got from the ancient_key: `FROM CHALLANGE 2`
 - Search for files related to **The name you found in the ancient key**
-- Read the **riddle** and find the answer (Hint: `cat directory`)
-- Discover the direction to find **lifecycle information**
+- Find and read a file with a riddle about the sphinx (Hint: `cat directory`)
+- The riddle will tell you where to go next
 
 **Helpful Commands:** `cd`, `find`, `cat`  
 Search Hint: `find . -name "*********"`
@@ -65,13 +72,10 @@ Search Hint: `find . -name "*********"`
 
 ### 🗺️ Challenge 4: The Lifecycle Mystery
 
-**🧠 Riddle Answer:**  
-
 #### Your Mission:
-- Go to directory `FROM CHALLANGE 3`
+- Go to the folder you got from the riddle: `FROM CHALLANGE 3`
 - Find and read the **lifecycle** file
 - Search the **logbook** for mentions of `"HUMAN"`
-- Uncover the **vault** clue
 
 **Helpful Commands:** `cd`, `cat`, `grep`  
 Search Hint: `grep "HUMAN" logbook.txt`
@@ -82,18 +86,16 @@ Search Hint: `grep "HUMAN" logbook.txt`
 
 ### 🗺️ Challenge 5: The Vault Permissions
 
-**📖 Logbook Entry:**  
-
 #### Your Mission:
-- Go to directory `FROM CHALLANGE 4`
-- Check the permissions of `treasure_map.txt`
-- Decode the permissions to find the **room number**
-- Read the file AND get the unlock code
+- Go to the folder you got from the vault: `FROM CHALLANGE 4`
+- Read the details of the file called `treasure_map.txt`
+- Find the **room number**
+- Figure out the code number you need to unlock the treasure room
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`  
 Permission Hint: Look at the first column of `ls -la`
 
-✅ **Success Criteria:** You've decoded the permissions, found the room, AND have the unlock code!
+✅ **Success Criteria:** You've Found the room AND have the unlock code!
 
 ---
 
@@ -102,14 +104,15 @@ Permission Hint: Look at the first column of `ls -la`
 **🗺️ Treasure Map:**  
 
 #### Your Mission:
-- Go to directory `FROM CHALLANGE 5`
+- Go to the folder you got from the laboratory: `FROM CHALLANGE 5`
 - Unlock the file using the code `FROM CHALLANGE 5`
-- Read **Dr. Vasquez's final message**
+- Read **Dr. Vasquez's final message** - file called `final_clue.txt`
 - Create a txt file as the message said with the exact text
-- Go to home directory and run the `./check_discovery.sh` script
+- Go to home directory `~/` and run the `./check_discovery.sh` script to check your answer
 - 
-**Helpful Commands:** `cd`, `cat`, `echo`, `./check_discovery.sh`  
-File Hint: `echo "TEXT" > ********.txt`
+**Helpful Commands:** `cd`, `cat`, `chmod`, `echo`, `./check_discovery.sh`
+Hint: `chmod [CODE] [final_clue.txt]`
+Hint: `echo "TEXT" > ********.txt`
 
 ### 🗺️ Challenge 7: The Final Treasure
 
@@ -117,8 +120,8 @@ File Hint: `echo "TEXT" > ********.txt`
 "The treasure chamber is now accessible!"
 
 #### Your Mission:
-- Go to directory `FROM CHALLANGE 6`
-- Claim your **treasure** and read your **achievement**
+- Go to the folder: `~/digital_expedition/treasure_room`
+- Read the file `TREASURE.txt` to see your reward and achievement!
 
 **Helpful Commands:** `cd`, `cat`
 
