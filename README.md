@@ -29,48 +29,47 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 
 ---
 
-### 🗺️ Challenge 2: The Hidden Chamber
+### 🗺️ Challenge 2: The Hidden Room
 
 **🧭 Compass Reading:**  
-"The ancient directory holds secrets. Navigate to 'archives' when you find it."
+"The ancient directory holds secrets."
 
 #### Your Mission:
-- Navigate to the `archives` directory
+- Navigate to the directory `FROM CHALLANGE 1`
 - Look for **hidden files/directories** (hint: some start with `.)
 - Find **Dr. Vasquez's journal**
-- Discover the **hidden chamber** and retrieve the **ancient key**
+- Discover the **hidden room** and retrieve the **ancient key**
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`
 
-✅ **Success Criteria:** You've found the ancient key and learned about the sphinx!
+✅ **Success Criteria:** You've found the ancient key!
 
 ---
 
 ### 🗺️ Challenge 3: The Riddle
 
 **🔑 Ancient Key Message:**  
-"The guardian's name is '******'. Find the riddle in the texts directory."
+"The guardian's name is '******'. Find the riddle in the '******' directory."
 
 #### Your Mission:
-- Go to `archives/texts`
+- Go to directory `FROM CHALLANGE 2`
 - Search for files related to **The name you found in the ancient key**
-- Read the **riddle** and find the answer
+- Read the **riddle** and find the answer (Hint: `cat directory`)
 - Discover the direction to find **lifecycle information**
 
 **Helpful Commands:** `cd`, `find`, `cat`  
 Search Hint: `find . -name "*********"`
 
-✅ **Success Criteria:** You’ve solved the riddle and know it's related to human development!
+✅ **Success Criteria:** You’ve solved the riddle!
 
 ---
 
 ### 🗺️ Challenge 4: The Lifecycle Mystery
 
 **🧠 Riddle Answer:**  
-"The answer lies in human development. Seek the 'lifecycle' file in the research directory."
 
 #### Your Mission:
-- Navigate to the `research` directory
+- Go to directory `FROM CHALLANGE 3`
 - Find and read the **lifecycle** file
 - Search the **logbook** for mentions of `"HUMAN"`
 - Uncover the **vault** clue
@@ -85,13 +84,12 @@ Search Hint: `grep "HUMAN" logbook.txt`
 ### 🗺️ Challenge 5: The Vault Permissions
 
 **📖 Logbook Entry:**  
-"The treasure location is encoded in the permissions of the vault."
 
 #### Your Mission:
-- Navigate to the `vault` directory
+- Go to directory `FROM CHALLANGE 4`
 - Check the permissions of `treasure_map.txt`
 - Decode the permissions to find the **room number**
-- Read the file to understand the encoding AND get the unlock code
+- Read the file AND get the unlock code
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`  
 Permission Hint: Look at the first column of `ls -la`
@@ -105,10 +103,11 @@ Permission Hint: Look at the first column of `ls -la`
 **🗺️ Treasure Map:**  
 
 #### Your Mission:
-- Navigate to `the room`
+- Go to directory `FROM CHALLANGE 5`
+- Unlock the file using the code `FROM CHALLANGE 5`
 - Read **Dr. Vasquez's final message**
 - Create a txt file as the message said with the exact text
-- Go to home directory and run the `check_discovery.sh` script
+- Go to home directory and run the `./check_discovery.sh` script
 - 
 **Helpful Commands:** `cd`, `cat`, `echo`, `./check_discovery.sh`  
 File Hint: `echo "TEXT" > ********.txt`
@@ -119,7 +118,7 @@ File Hint: `echo "TEXT" > ********.txt`
 "The treasure chamber is now accessible!"
 
 #### Your Mission:
-- Go to the `treasure_chamber` directory
+- Go to directory `FROM CHALLANGE 6`
 - Claim your **treasure** and read your **achievement**
 
 **Helpful Commands:** `cd`, `cat`
