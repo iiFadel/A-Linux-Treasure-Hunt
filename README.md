@@ -41,7 +41,7 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 
 **Helpful Commands:** `cd`, `ls -la`, `cat`
 
-✅ **Success Criteria:** You've found the ancient key!
+✅ **Success Criteria:** You've found the ancient key and have the guardian name!
 
 ---
 
