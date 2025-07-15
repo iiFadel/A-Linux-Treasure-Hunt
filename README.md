@@ -18,7 +18,7 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 "Welcome, brave explorer! I've left supplies at base camp. You'll need to find the compass to continue your journey."
 
 #### Your Mission:
-- Navigate to: `~/digital_expedition/base_camp`
+- Go to: `~/digital_expedition/base_camp`
 - List what's available in the camp
 - Read the `README.txt` file for instructions
 - Find the **compass** in the `supplies` directory
@@ -35,7 +35,7 @@ Dr. Elena Vasquez, a famous computer scientist, was exploring old digital files 
 "The ancient directory holds secrets."
 
 #### Your Mission:
-- Navigate to the directory `FROM CHALLANGE 1`
+- Go to the directory `FROM CHALLANGE 1`
 - Look for **hidden files/directories** (hint: some start with `.)
 - Find **Dr. Vasquez's journal**
 - Discover the **hidden room** and retrieve the **ancient key**
