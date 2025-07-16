@@ -108,7 +108,7 @@ Permission Hint: Look at the first column of `ls -la`
 - Unlock the file using the code `FROM CHALLANGE 5`
 - Read **Dr. Vasquez's final message** - file called `final_clue.txt`
 - Create a txt file as the message said with the exact text
-- Go to home directory `~/` and run the `./check_discovery.sh` script to check your answer
+- Go to home directory `~/digital_expedition` and run the `./check_discovery.sh` script to check your answer
 - 
 **Helpful Commands:** `cd`, `cat`, `chmod`, `echo`, `./check_discovery.sh`
 Hint: `chmod [CODE] [final_clue.txt]`
