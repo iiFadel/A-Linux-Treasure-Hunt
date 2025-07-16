@@ -140,7 +140,7 @@ Hint: `echo "TEXT" > ********.txt`
 | `cat file`               | Display file contents              | `cat README.txt`                       |
 | `find . -name "pattern"` | Search for files                   | `find . -name "*sphinx*"`              |
 | `grep "text" file`       | Search for text in a file          | `grep "HUMAN" logbook.txt`             |
-| `echo "text" > file`     | Create file with text              | `echo "I FOUND THE TREASURE" > file`   |
+| `echo "text" > file`     | Create file with text              | `echo "Hi" > file.txt`   |
 | `pwd`                    | Show current directory             | `pwd`                                  |
 | `./script.sh`            | Run a script                       | `./check_discovery.sh`                 |
 
