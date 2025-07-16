@@ -64,7 +64,7 @@ Use the Command Help at the bottom if you get stuck!
 - The riddle will tell you where to go next
 
 **Helpful Commands:** `cd`, `find`, `cat`  
-Search Hint: `find . -name "*********"`
+Search Hint: `find . -name "*GUARDIAN NAME*"`
 
 ✅ **Success Criteria:** You’ve solved the riddle!
 
